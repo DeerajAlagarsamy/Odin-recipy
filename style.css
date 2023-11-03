@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/4361225-230617114);
+  /* filter: blur(5px); */
+}
+.header {
+  display: block;
+
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: x-large;
+  font-family: "Playpen Sans", cursive;
+}
+.pagew {
+  display: block;
+  background-color: aliceblue;
+  padding: 10%;
+  margin: 10%;
+  background-image: url(images/another-rough-old-and-worn-parchment-paper-807397724);
+  background-position: center;
+  border: 5px;
+  border-style: solid;
+}
+.varietys {
+  display: block;
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: larger;
+}
+.varietys_menu {
+  display: block;
+  text-align: center;
+}
+.varietys_menu ul {
+  /* list-style-type: "\1F372"; */
+  /* list-style-position: outside; */
+
+  /* list-style: square url(images/food-05-1024-2213546815); */
+}
+.varietys_menu ul li {
+  display: inline-block;
+
+  padding-bottom: 20px;
+}
+.varietys_menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Gabarito", sans-serif;
+}
+.varietys_menu ul li ::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #c900c9;
+  display: block;
+  margin: auto;
+  transition: 0.2s;
+}
+.varietys_menu ul li :hover::after {
+  width: 100%;
+}
+.indianhead {
+  display: block;
+
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: large;
+  font-family: "Playpen Sans", cursive;
+}
+.dishimg {
+  display: flex;
+  justify-content: center;
+  /* align-self: center; */
+  align-content: center;
+  margin: auto;
+  /* border: 2px;
+  border-style: solid; */
+}
+.indianmenu {
+  display: block;
+  /* margin: 10px; */
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.indian_list {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.indian_list ul li {
+  display: block;
+  padding-bottom: 8px;
+}
+.direc {
+  display: block;
+  font-size: large;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.steps {
+  display: block;
+}
+.steps h3 {
+  /* display: block; */
+  padding: 20px;
+  text-align: start;
+  text-decoration: overline;
+}
+.steps p {
+  padding: 10px;
+}
+.hbt {
+  display: block;
+  align-content: center;
+  margin-bottom: 50px;
+  margin-left: 50%;
+  padding: 5px;
+  font-size: large;
+}
